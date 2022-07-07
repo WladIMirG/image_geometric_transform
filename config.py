@@ -7,5 +7,7 @@ parser.add_argument('-d', '--altura', type=float,   default=0, help='Largura alt
 parser.add_argument('-m', '--interp', type=float,   default=0, help='Interpolação')
 parser.add_argument('-i',  '--img_i', type = str,   default=0, help='Path to video file (if not using camera)')
 parser.add_argument('-o',  '--img_o', type = str,   default=0, help='Path to video file (if not using camera)')
+parser.add_argument('-mod',  '--mode', type = str,   default=None, help='Path to video file (if not using camera)')
 
 args = vars(parser.parse_args())
+
